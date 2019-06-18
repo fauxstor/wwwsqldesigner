@@ -28,7 +28,7 @@ body {
 #bar {
 	text-align: center;
 	background-color: #ccc;
-	position: fixed; 
+	position: fixed;
 	top: 0px;
 	right: 0px;
 	width: 150px;
@@ -104,7 +104,7 @@ body {
 .table {
 	position: absolute;
 	border: 1px solid #000;
-	background-color: #ddd;
+	background-color: #dedede;
 	cursor: pointer;
 	-moz-box-shadow: 4px 4px 8px #888; /* FF 3.5+ */
 	-webkit-box-shadow: 4px 4px 8px #888; /* Safari 3.0+, Chrome */
@@ -123,6 +123,8 @@ body {
 }
 
 .table thead .title {
+	background-color: #111;
+	color: #eee;
 	text-align: center;
 	padding: 3px 30px;
 }
@@ -248,7 +250,7 @@ body {
 }
 
 #keys {
-	white-space: nowrap; 
+	white-space: nowrap;
 	text-align: center;
 }
 
