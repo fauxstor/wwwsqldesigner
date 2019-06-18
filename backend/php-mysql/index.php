@@ -2,14 +2,14 @@
 	set_time_limit(0);
 	function setup_saveloadlist() {
 		define("SERVER","localhost");
-		define("USER","");
+		define("USER","root");
 		define("PASSWORD","");
-		define("DB","home");
+		define("DB","wwwsqldesigner");
 		define("TABLE","wwwsqldesigner");
 	}
 	function setup_import() {
 		define("SERVER","localhost");
-		define("USER","");
+		define("USER","root");
 		define("PASSWORD","");
 		define("DB","information_schema");
 	}
